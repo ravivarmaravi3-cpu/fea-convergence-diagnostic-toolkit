@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fea-convergence-diagnostic-toolkit"
+version = "0.1.0"
+description = "Work-in-progress parser and diagnostics engine for FEA solver convergence output"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Ravivarma"}]
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License"
+]
+
+[project.scripts]
+fea-diagnose = "fea_diagnostics.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

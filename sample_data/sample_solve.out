@@ -1,0 +1,6 @@
+*** SYNTHETIC EXAMPLE - NOT FROM A PRODUCTION MODEL ***
+WARNING: Contact pair 17 has excessive penetration.
+The equilibrium iteration did not converge.
+Bisection performed at substep 8 because the time step was too large.
+WARNING: Element 451 is highly distorted.
+ERROR: Solution failed to converge at the current substep.
